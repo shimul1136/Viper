@@ -1,45 +1,99 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+User Story 1: 
+As a user , I want to login the system 	Acceptance Criteria  
+•	Must have the authorized username and password
+•	User can change password
+•	user can recover password
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+User Story 2:
+As a student, I want to submit Ideas	Acceptance Criteria  
+•	Can be submit one or more ideas
+•	Ideas length must be within 200 character 
+•	Ideas can be upload with category tag
+•	Ideas are automatically categorized through tag
+•	User can post Ideas anonymously 
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+User Story 3:
+As a student ,I want to terms and conditions	Acceptance Criteria
+•	Must submit Ideas
+•	Only once for every new user
 
----
+User Story 4:
+As a student, I want to upload document to support Ideas	Acceptance Criteria
+•	Must submit ideas
+•	Upload option is available to all and they can use it if needed
 
-## Edit a file
+User Story 5:
+As a user , I want see all submitted document 	Acceptance Criteria
+•	Ideas are see by their defined category
+•	Show 5 Ideas in every page
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+User Story 6:
+As a user, I want to comment on Ideas	Acceptance Criteria
+•	Staff comments are visible only to the staff
+•	Students comments are visible to all
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+User Story 7:
+As a user, I want to Thumbs up or Thumbs down in any Ideas	Acceptance Criteria
+•	One user can post Thumbs up or down once for any Ideas
+•	If Thumbs up is clicked Thumbs down is disabled.
+•	If Thumbs Down is clicked Thumbs up is disabled.
 
----
 
-## Create a file
+User Story 8
+As a User, I want post Ideas Anonymously	Acceptance Criteria
+•	Option for hide Ideas Author information to other
+•	Stored Authors information in database
 
-Next, you’ll add a new file to this repository.
+User Story  9
+As an Author, I want to receive notification for comment on my ideas.	Acceptance Criteria
+•	Gives email notification to ideas author
+•	Only notification  about students comments
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+User Story   10: 
+As a QA manager I want to oversee the process	Acceptance Criteria
+•	Able to see the details on ideas
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
+User Story  11
+As a Department QA, I want to managing the process and encouraging the students	Acceptance Criteria
+•	Send email to students about post ideas
 
----
+User Story 12
+As a QA manager , I want to add category	Acceptance Criteria
+•	At any time he want 
 
-## Clone a repository
+User Story 13
+As a QA manager , I want to Delete category	Acceptance Criteria
+•	At any time he want
+•	If the categories is not in used
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
+User Story 14
+As a Department QA Coordinator , I want to receive email notification 	Acceptance Criteria
+•	Ideas should be submitted 
 
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
 
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+User Story 15
+As a staff I want to see most popular ideas	Acceptance Criteria
+Popularity should be count based on Thumbs up and Thumbs down
+
+User Story 16
+As a staff I want to see most view ideas	
+
+
+User Story 17
+As a staff I want to see most Latest ideas	
+
+User Story 18
+As a staff I want to see most view ideas	
+
+User Story 19
+As QA manager , I want to download all the selected document 	Acceptance Criteria
+•	After finished the final closer date
+•	Document download as zip file
+
+User Story 20
+As an Administration , I want to maintained the system data	Acceptance Criteria
+•	Maintain the academic year closure date
+•	Maintained staff details
+•	Maintained student details
+
+
